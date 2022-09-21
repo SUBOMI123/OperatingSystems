@@ -146,7 +146,7 @@ elem list_remove_at_index(list_t *l, int index){
     }
     node_t* del = temp->next;
     temp->next = temp->next->next;
-    printf("\nElement deleted is : %d\n", del->value);
+    printf("\nElement removed: %d\n", del->value);
     elem res = del->value;
     del->next = NULL;
     free(del);

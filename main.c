@@ -3,7 +3,7 @@
 
 int main() 
 {
-  printf("Write your Tests for your linked list implementation\n");
+  printf("Test Cases\n");
   
   list_t *mylist;
   
@@ -11,10 +11,10 @@ int main()
   
   list_free(mylist);
   list_add_to_back(mylist, 1);
-  list_add_to_back(mylist, 5);
-  list_add_to_back(mylist, 9);
-  list_add_to_back(mylist, 10);
   list_add_to_back(mylist, 2);
+  list_add_to_back(mylist, 4);
+  list_add_to_back(mylist, 6);
+  list_add_to_back(mylist, 8);
   printf("\n");
   list_print(mylist);
   printf("\n");
@@ -24,7 +24,7 @@ int main()
   printf("\n");
   list_print(mylist);
   printf("\n");
-  list_add_at_index(mylist, 13, 3);
+  list_add_at_index(mylist, 10, 3);
   printf("\n");
   list_print(mylist);
   printf("\n");
